@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.churro.config"},{"l":"com.churro.controller"},{"l":"com.churro.request"},{"l":"com.churro.response"},{"l":"com.churro.util"},{"l":"com.churros"},{"l":"com.churros.entity"},{"l":"com.churros.repository"},{"l":"com.churros.service"},{"l":"com.luv2code.ecommerce"}];updateSearchResults();
