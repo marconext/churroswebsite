@@ -32,7 +32,7 @@ public class SecurityConfig {
     	  http
     	   .cors(cors -> cors.configurationSource(corsConfigurationSource())) // apply CORS configuration
             .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/", "/user/save", "/api/events/").permitAll()
+                        .requestMatchers("/", "/user/save", "/api/events/**").permitAll()
                         
                         .anyRequest().authenticated())
                 .httpBasic(withDefaults())
